@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@200;300;400&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="css/all.min.css">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body class="section-content">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#" >
+                    <img src="images/logo (1).png" class="logo " alt="logo">
+                    <div>
+                        <h1 class="weather-head m-2">Weather</h1>
+                        <p class="weather-body m-2">tagline goes here</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                       
+                        <li class="nav-item">
+                            <a class="nav-link home "  href="index.html" role="button">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="newsLink"  role="button">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="liveLink" role="button">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="photoLink" role="button">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " id="contactLink" role="button">Contact</a>
+                        </li>
+                       
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="d-flex ">
+                        <input type="text" placeholder="Find your Location...." class=" inputdetails " id="inputSearch">
+                        <button id="findButton">Find</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       
+
+
+
+        <section >
+            <div class="container">
+                <div class="row g-0" id="rowData">
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="day1head">
+                        
+                            <div class="day1parag py-3">
+                                <span id="dayName">Thursday</span>
+                                <span id="dayDateNumber">11 </span><span id="dayDateName">hhhhhhhh</span>
+                            </div>
+                        </div>
+                        <div class="day1content">
+                            <p id="cityName">cairo</p>
+                               
+                                <div class="day1body">
+                                    <p id="tembC">16oC</p>
+                                    <!-- <img id="tembImgMini" src="images/logo (1).png" width="20px" alt=""> -->
+                                    <img id="tembImage" src="images/logo (1).png" alt="state">
+                                </div>
+                                <p id="text">kkkkkkkkkkkkkkkk</p>
+                                <div class="icons">
+                                    <span ><i id="imageOne" class="fa-solid fa-umbrella mar-end icon-size"></i><span id="percentDay">20%</span></span>
+                                    <span ><i id="imageTow" class="fa-solid fa-wind mar-start icon-size"></i><span id="distanceDay">18km/h</span></span>
+                                    <span ><i id="imageThree" class="fa-solid fa-compass mar-wid icon-size"></i><span id="compass">East</span></span>
+                                </div>
+                               
+                            </div>
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="day2content">
+                            <div class="text-center day2head ">
+                                <p class="day2Name">Saturday</p>
+                            </div>
+                            <div class="iconday2">
+                                <img src="images/logo (1).png" class="iconday2" alt="">
+                               
+                            </div>
+                            <p class="tembCTow">
+                                20.9oC
+                            </p>
+                            <p class="tembTow">
+                                11.2o
+                            </p>
+                            <p class="textDayTow">
+                                Sunny
+                            </p>
+
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="day2content day3content">
+                            <div class="text-center day2head day3head">
+                                <p class="day2Name">Sun</p>
+                            </div>
+                            <div class="iconday2 iconday3">
+                                <img class="iconday2" src="images/logo (1).png" alt="state">
+                            </div>
+                            <p class="tembCTow tembCThree">
+                                18.1oC
+                            </p>
+                            
+                            <p class="tembTow">
+                                13o
+                            </p>
+                            <p class="textDayTow">
+                                Patchy rain possible
+                            </p>
+                    
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pop">
+                    <div class="d-flex parent">
+                        <input type="text" placeholder="Find your email to subscribe...." class=" inputsubs">
+                        <button id="subscribeButton">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+
+
+
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

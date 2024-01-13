@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.section-content{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.home{
+    border: 2px solid blue;
+    border-radius: 20px;
+   color: blue;
+   padding: 5px 20px;
+   margin-right: 10px;
+}
+.nav-item{
+padding: px 10px;
+}
+.links{
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin: 0px 10px;
+    padding: 5px 20px;
+}
+
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    
+   width:fit-content;
+   height: fit-content;
+}
+.weather-head{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.weather-body{
+        font-size: 10px;
+        
+        font-family: 'Roboto', sans-serif;
+        color: rgb(175, 171, 171);
+}
+#dayDateNumber{
+    margin-left: 55%;
+}
+
+.day1parag{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 8px 8px;
+    
+    
+    border-top-left-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.605);
+    color: white;
+    
+    
+}
+
+#day{
+margin-top: 10px;
+}
+.day1head{
+    margin-top: 50px;
+    
+    border-top-left-radius: 10px;
+    
+    
+}
+.day1body{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 30px 0px;
+    
+    
+}
+.day1content{
+    background-color: rgba(56, 57, 62, 0.932);
+    padding: 15px;
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+
+/* #tembImgMini{
+    position: absolute;
+    top: -10px;
+    right: 50px;
+} */
+#tembC{
+    font-size: 60px;
+    font-weight: bold;
+}
+#text{
+    color: #009ad8;
+}
+.icons{
+    display: flex;
+    justify-content:flex-start;
+}
+.mar-end{
+    margin-right: 8px;
+   
+}
+
+.mar-start{
+    margin-left: 20px;
+}
+.mar-wid{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.icon-size{
+    font-size: 20px;
+}
+#cityName{
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgba(227, 220, 220, 0.701);
+}
+#text{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+/* /////////////////////////////////////////////////////////////////2//////////// */
+.day2content{
+    
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    /* padding-bottom: 35px; */
+    
+}
+.day2head{
+    background-color: rgba(29, 29, 29, 0.837);
+    color: white;
+    padding: 6px 0px;
+    
+}
+.textDayTow{
+    color: #009ad8;
+}
+.day2Name{
+    font-size: 16px;
+    /* padding: 7px 0px; */
+}
+.iconday2{
+    font-size: 25px;
+    text-align: center;
+    margin: 31.5px 0px;
+}
+.tembCTow{
+    margin: 10px 0px 10px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.day2content{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 51px;
+    /* position: relative; */
+
+}
+
+.day3content{
+/* background-color: rgba(16, 16, 30, 0.574); */
+padding-bottom:14px ;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+
+#day3Name {
+    font-size: 16px;
+    padding: 7px 0px;
+}
+
+.iconday2{
+    margin-top: 40px;
+}
+
+.inputdetails{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    width: 85%;
+    background-color: black;
+    border: none;
+    color: white;
+    top: -100px;
+    
+}
+#findButton{
+    width: fit-content;
+    background-color: #009ad8;
+    height: fit-content;
+    padding: 12px 30px;
+    position: relative;
+    top: 106px;
+    right: 135px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.inputsubs{
+
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding: 20px 20px;
+        border-radius: 50px;
+        width: 55%;
+        background-color: black;
+        border: none;
+        color: white;
+        /* position: relative; */
+        margin-left: 110px;
+}
+
+#subscribeButton{
+        width: fit-content;
+        background-color: #009ad8;
+        height: fit-content;
+        padding: 12px 30px;
+        position: relative;
+        top: 106px;
+        right:  135px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: 16px;
+}
+
+
+
+
+
+
+
+
